@@ -24,7 +24,7 @@ class App extends Component {
     addTodo = (todo) => {
         todo.id = Math.random();
         let todos = [...this.state.todos, todo];
-        this.setState({todos})
+        this.setState({todos});
     };
 
     render() {

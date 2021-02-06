@@ -8,7 +8,7 @@ class AddTodo extends Component {
     handleChange = (e) => {
         this.setState({
             content: e.target.value
-        })
+        });
     };
 
     handleSubmit = (e) => {
@@ -16,7 +16,7 @@ class AddTodo extends Component {
         this.props.addTodo(this.state);
         this.setState({
             content: ''
-        })
+        });
     }
 
     render() {
